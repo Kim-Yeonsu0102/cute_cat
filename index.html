@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마틸다</title>
+  <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+
+  <link href="main.css" rel="stylesheet" type="text/css" />  
+
+</head>
+<body>
+<section>
+
+  <div class="text">
+    <h1>
+      <span>고</span>
+      <span>양</span>
+      <span>이</span>
+      <span>귀</span>
+      <span>여</span>
+      <span>워</span>
+      <span>!</span>
+      <span>!</span>
+    </h1>
+  </div>
+  <canvas id="canvas"></canvas>
+  <!-- <canvas id="webgl-canvas"></canvas> -->
+
+
+  <script type="importmap" >
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.141.0/build/three.module.js",
+        "GLTFLoader": "https://unpkg.com/three@0.141.0/examples/jsm/loaders/GLTFLoader.js",
+      
+        "OrbitControls":"https://unpkg.com/three@0.141.0/examples/jsm/controls/OrbitControls.js"
+      }
+    }
+  </script>
+
+<script type="module" src="main.js" ></script>
+<!-- <script type="module" src="bg.js" ></script> -->
+
+</section>
+</body>
+</html>
